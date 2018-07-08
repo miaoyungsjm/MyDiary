@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!-- toolBar -->
+    <string name="tool_bar_item_title_add">Add</string>
+    <string name="tool_bar_item_title_delete">DeleteAll</string>
+    <string name="tool_bar_item_title_about">About</string>
+
+    <!-- EditActivity -->
+    <string name="title">标题：</string>
+    <string name="content">内容：</string>
+    <string name="button">保存</string>
+    <string name="status_save">保存成功！</string>
+    <string name="status_update">修改成功！</string>
+
+    <!-- AlertDialog -->
+    <string name="delete_one_diary_title">删除一篇日记</string>
+    <string name="delete_one_diary_info">你确定要删除这篇日志吗？</string>
+    <string name="delete_one_diary_confirm">删除</string>
+    <string name="delete_one_diary_cancel">取消</string>
+
+</resources>
