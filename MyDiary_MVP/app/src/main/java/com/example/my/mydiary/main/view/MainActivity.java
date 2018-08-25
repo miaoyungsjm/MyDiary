@@ -24,6 +24,7 @@ import com.example.my.mydiary.main.handler.MainHandler;
 import com.example.my.mydiary.main.listener.OnItemClickListener;
 import com.example.my.mydiary.main.listener.OnItemLongClickListener;
 import com.example.my.mydiary.main.presenter.DiaryPresenter;
+import com.example.my.mydiary.threadpool.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -134,8 +135,11 @@ public class MainActivity extends AppCompatActivity implements DiaryViewInterfac
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.toolbar_add:
-                Intent intent = new Intent(MainActivity.this, EditActivity.class);
-                startActivityForResult(intent, REQUEST_CODE_UPDATE);
+//                Intent intent = new Intent(MainActivity.this, EditActivity.class);
+//                startActivityForResult(intent, REQUEST_CODE_UPDATE);
+
+                Test test = new Test();
+
                 break;
 
             case R.id.toolbar_delete_all:
@@ -195,9 +199,9 @@ public class MainActivity extends AppCompatActivity implements DiaryViewInterfac
     public void showDeleteDialog(final View v, final int position) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(android.R.drawable.ic_menu_delete)
-                .setTitle(R.string.delete_one_diary_title)
-                .setMessage(R.string.delete_one_diary_info)
-                .setPositiveButton(R.string.delete_one_diary_confirm, new DialogInterface.OnClickListener() {
+                .setTitle(R.string.main_dialog_title)
+                .setMessage(R.string.main_dialog_desc)
+                .setPositiveButton(R.string.main_dialog_confirm, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
@@ -216,7 +220,7 @@ public class MainActivity extends AppCompatActivity implements DiaryViewInterfac
                         mAdapter.notifyDataSetChanged();
                     }
                 })
-                .setNegativeButton(R.string.delete_one_diary_cancel, new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.main_dialog_cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();

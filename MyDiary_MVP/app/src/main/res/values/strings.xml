@@ -1,22 +1,32 @@
 <resources>
     <string name="app_name">MyDiary</string>
 
-    <!-- toolBar -->
-    <string name="tool_bar_item_title_add">Add</string>
-    <string name="tool_bar_item_title_delete">DeleteAll</string>
-    <string name="tool_bar_item_title_about">About</string>
+    <!-- MainActivity -->
+    <string name="main_tool_bar_item_add">Add</string>
+    <string name="main_tool_bar_item_delete">DeleteAll</string>
+    <string name="main_tool_bar_item_about">About</string>
+    <string name="main_dialog_title">删除一篇日记</string>
+    <string name="main_dialog_desc">你确定要删除这篇日志吗？</string>
+    <string name="main_dialog_confirm">删除</string>
+    <string name="main_dialog_cancel">取消</string>
 
     <!-- EditActivity -->
-    <string name="title">标题：</string>
-    <string name="content">内容：</string>
-    <string name="button">保存</string>
-    <string name="status_save">保存成功！</string>
-    <string name="status_update">修改成功！</string>
+    <string name="edit_tv_title">标题：</string>
+    <string name="edit_et_content">内容：</string>
+    <string name="edit_btn_save">保存</string>
+    <string name="edit_status_save">保存成功！</string>
+    <string name="edit_status_update">修改成功！</string>
 
-    <!-- AlertDialog -->
-    <string name="delete_one_diary_title">删除一篇日记</string>
-    <string name="delete_one_diary_info">你确定要删除这篇日志吗？</string>
-    <string name="delete_one_diary_confirm">删除</string>
-    <string name="delete_one_diary_cancel">取消</string>
+    <!-- FirstActivity -->
+    <string name="first_btn_text">Jump</string>
+
+    <!-- SecondActivity -->
+    <string name="second_send_msg">Very large msg</string>
+    <string name="second_btn_text">Send</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Title</string>
+    <string name="dialog_confirm">confirm</string>
+    <string name="dialog_cancel">cancel</string>
 
 </resources>

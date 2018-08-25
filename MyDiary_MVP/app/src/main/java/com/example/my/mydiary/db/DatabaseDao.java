@@ -31,7 +31,7 @@ public class DatabaseDao {
 
     /**
      * 双锁单例模式（DCL）
-     *
+     * <p>
      * 获取单例对象
      * 要求传入 Application 的 Context 参数
      */

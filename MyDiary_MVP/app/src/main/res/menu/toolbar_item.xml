@@ -4,16 +4,16 @@
     <item
         android:id="@+id/toolbar_add"
         android:icon="@drawable/icon_add"
-        android:title="@string/tool_bar_item_title_add"
+        android:title="@string/main_tool_bar_item_add"
         app:showAsAction="always" />
     <item
         android:id="@+id/toolbar_delete_all"
         android:icon="@drawable/icon_delete"
-        android:title="@string/tool_bar_item_title_delete"
+        android:title="@string/main_tool_bar_item_delete"
         app:showAsAction="never" />
     <item
         android:id="@+id/toolbar_about"
         android:icon="@drawable/icon_about"
-        android:title="@string/tool_bar_item_title_about"
+        android:title="@string/main_tool_bar_item_about"
         app:showAsAction="never" />
 </menu>
